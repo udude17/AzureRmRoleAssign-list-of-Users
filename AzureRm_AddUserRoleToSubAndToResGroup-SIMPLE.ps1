@@ -3,7 +3,7 @@ Login-AzureRMAccount
 $SubID  = "abcdef1234" #  
 Set-AzureRmContext -SubscriptionId $SubID 
 
-$RoleName1 = "Contributor"
+$RoleName = "Contributor"
 $RoleName2 = "Reader"
 
 # USER LIST (ARRAY) 1
@@ -33,7 +33,7 @@ foreach ($user in $UserArray1)
 $subscope = "/subscriptions/"+$SubID
 foreach ($user in $UserArray2)
         { 
-        New-AzureRmRoleAssignment -SignInName $user -Scope $subscope -RoleDefinitionName $RoleName1
+        New-AzureRmRoleAssignment -SignInName $user -Scope $subscope -RoleDefinitionName $RoleName2
 
         }
 
