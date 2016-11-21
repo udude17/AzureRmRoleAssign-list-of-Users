@@ -10,12 +10,12 @@ $RoleName2 = "Reader"
 $UserArray1 = `
     "user1_outlook.com#EXT#@azureadtenant.onmicrosoft.com",`
     "user2_hotmail.com#EXT#@azureadtenant.onmicrosoft.com", `
-    "user3@azureadtenant1.onmicrosoft.com"
+    "workuser3@azureadtenant.onmicrosoft.com"
 
 # USER LIST (ARRAY) 2  
 $UserArray2 = `
-    "user4_outlook.com#EXT#@azureadtenant1.onmicrosoft.com",`
-    "user5@azureadtenant1.onmicrosoft.com"
+    "user4_outlook.com#EXT#@azureadtenant.onmicrosoft.com",`
+    "workuser5@azureadtenant.onmicrosoft.com"
 
 
 # ASSIGN ARRAY OF USERS to SPECIFIC RESOURCE GROUPS -----------------------------------
